@@ -43,6 +43,7 @@ const Orders = () => {
           Order Management
         </h1>
 
+        {/* // Tabs  */}
         <div className="flex justify-center mb-4">
           <button
             className={`${
@@ -76,12 +77,13 @@ const Orders = () => {
           </button>
         </div>
 
+        {/* Table Start  */}
         <table className="w-full border-collapse bg-white shadow-lg">
           <thead>
             <tr>
-              <th className="py-2 px-4 border">Order ID</th>
-              <th className="py-2 px-4 border">Customer Name</th>
-              <th className="py-2 px-4 border">Delivery Type</th>
+              <th className="py-2 px-4 border text-gray-700">Order ID</th>
+              <th className="py-2 px-4 border text-gray-700">Customer Name</th>
+              <th className="py-2 px-4 border text-gray-700">Delivery Type</th>
             </tr>
           </thead>
           <tbody>
